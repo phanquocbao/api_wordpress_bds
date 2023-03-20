@@ -1,0 +1,13 @@
+a.button.button-secondary.alignright {
+    color: #fff !important;
+    background: #f8af12 !important;
+    font-size: 14px;
+    margin: -5px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: 2px 2px 0px 0px #fff !important;
+}
+#accordion-section-vw_real_estate h3.accordion-section-title, #accordion-section-vw_real_estate2 h3.accordion-section-title {
+    background: #0f3fd0 !important;
+    color: #fff !important;
+}

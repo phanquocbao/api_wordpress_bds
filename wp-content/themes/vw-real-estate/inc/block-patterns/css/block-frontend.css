@@ -1,0 +1,76 @@
+.outer-banner-sec, .category-sec{
+  width: auto;
+  height: auto;
+}
+/*Banner section*/
+.banner-sec a.wp-block-button__link {
+  padding: 10px 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+/*Category Box section*/
+.category-sec h2, .category-sec h3, .category-sec h4{
+  font-weight: bold;
+}
+.category-sec h2{
+  letter-spacing: 1px;
+}
+.category-sec h3{
+  letter-spacing: 2px;
+}
+.category-sec .category-box{
+  margin-bottom: 20px;
+  position: relative
+}
+.category-sec .category-box:hover .category-inner-box {
+  opacity: 1;
+}
+.category-sec .category-inner-box {
+  position: absolute;
+  bottom: 5%;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  left: 10%;
+  opacity: 0;
+  line-height: 0;
+}
+.category-sec .wp-block-button{
+  margin-bottom: 0 !important;
+}
+.category-sec a.wp-block-button__link, .category-sec a.wp-block-button__link:hover{
+  background: none !important;
+}
+.category-sec a.wp-block-button__link:after{
+  content: "\f067";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  font-size: 15px;
+  background: #ffc107;
+  padding: 10px;
+  border-radius: 50%;
+}
+@media screen and (max-width:767px) {
+  .banner-sec{
+    min-height: 400px !important;
+  }
+  .banner-sec h1{
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .banner-sec .wp-block-column.is-vertically-aligned-center{
+    flex-basis: 100% !important;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width:1024px) {
+  .category-sec .category-inner-box .title{
+    flex-basis: 70% !important;
+  }
+  .category-sec .category-inner-box .btn{
+    flex-basis: 20% !important;
+    margin-left: 0;
+  }
+}

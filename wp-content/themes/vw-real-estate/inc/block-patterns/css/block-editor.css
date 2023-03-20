@@ -1,0 +1,60 @@
+.banner-sec p, .banner-sec .block-editor-rich-text__editable.wp-block-button__link{
+	font-family: 'Roboto', sans-serif !important;
+	color: #909090 !important;
+}
+.banner-sec h1, .category-sec h2, .category-sec h3, .category-sec h4{
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+/*Banner section*/
+.banner-sec p {
+  color: #ffffff !important;
+}
+.banner-sec .block-editor-rich-text__editable.wp-block-button__link {
+  padding: 10px 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffffff !important;
+}
+.banner-sec .block-editor-rich-text__editable.wp-block-button__link:hover {
+  background-color: #0f3fd0 !important;
+}
+/*Category section*/
+.banner-sec h1, .category-sec h2, .category-sec h3, .category-sec h4, .banner-sec .block-editor-rich-text__editable.wp-block-button__link{
+  font-weight: bold;
+}
+.category-inner-box .wp-block-column.btn.block-editor-block-list__block.wp-block.block-core-columns.block-editor-block-list__layout{
+	padding: 10px 0;
+	line-height: 0;
+}
+.category-sec .wp-block-columns.title-content.block-editor-block-list__block.wp-block.block-editor-block-list__layout, .category-sec .wp-block-buttons.block-editor-block-list__block.wp-block.block-editor-block-list__layout, .category-sec .wp-block-button.block-editor-block-list__block.wp-block{
+	margin-top: 0 !important;
+}
+.category-sec h4{
+	margin-top: 10px !important;
+}
+.category-sec .category-inner-box {
+  position: absolute;
+  bottom: 10%;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  left: 10%;
+  line-height: 0;
+}
+.category-sec .block-editor-rich-text__editable.wp-block-button__link span {
+    display: none;
+}
+.category-sec .block-editor-rich-text__editable.wp-block-button__link, .category-sec .block-editor-rich-text__editable.wp-block-button__link:hover{
+  background: none !important;
+  padding: 12px 0px !important;
+}
+.category-sec .block-editor-rich-text__editable.wp-block-button__link:after{
+  content: "\f067";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  font-size: 15px;
+  background: #ffc107;
+  padding: 10px;
+  border-radius: 50%;
+}

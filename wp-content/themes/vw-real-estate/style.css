@@ -1,0 +1,700 @@
+/*
+Theme Name: VW Real Estate
+Theme URI: https://www.vwthemes.com/themes/free-real-estate-wordpress-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: VW Real Estate is a clean, sleek and responsive theme for real estate agencies, builders, agent, directory, google maps, homes, property inclusion, agency maintaince, invoices and everything, agency idx broker, listing, MLS, property realtor, interior designers, Land Consultant, Commercial Investment Member, Residential Specialist, Office Realtors  landlords, chattels, freehold, landed property, plot, property dealers, agents and brokers, accountants, consultants, property feature/amenities, architects and construction companies. Its multipurpose and minimal design will result in a sophisticated business website for making your business reach the zenith of success. It is made to highlight the key features of your real estate business by showing them in a creative manner. The flexible layout allows it to be used for different purposes by offering several personalization options like custom menu option, Theme Options, listing search option and many more. You don’t need to write any code while using this theme. Its user-friendly interface and optimized codes improve the overall performance of the theme as it loads the pages at a lightning-fast speed. The Bootstrap framework and stunning animations make your website look distinct. It is made to follow the latest WordPress standards as it has a code that makes this theme compliant to the latest WordPress version. The Call To Action (CTA) buttons included makes it interactive. This beautiful theme supports adding custom widgets and other elements by directly using the shortcodes that are available with the theme. For fetching the top ranks in web searches, it is made SEO friendly. You can procure the benefits of this free, modern and mobile-friendly theme for your business. Demo: https://www.vwthemes.net/vw-real-estate-pro/
+Template: vw-construction-estate
+Tested up to: 5.7
+Requires PHP: 7.2.14
+Version: 1.4.1
+License: GPLv3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: vw-real-estate
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, block-patterns, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, post-formats, flexible-header, featured-image-header, sticky-post, theme-options, translation-ready, threaded-comments, rtl-language-support, blog, portfolio,e-commerce
+*/
+
+/*------- DEFAULT CSS --------*/
+
+body{
+	font-family: 'Roboto', sans-serif !important;
+	color: #909090 !important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+a{
+	color: #f8af12;
+}
+select{
+    outline: none;
+    border-bottom: none;
+}
+.main-navigation a:focus{
+  outline: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+/*------- LOGO --------*/
+.admin-bar #header {
+    margin-top: 32px;
+}
+.logo h1, 
+.logo p.site-title{
+	font-size: 25px;
+	letter-spacing: 0;
+	margin-bottom: 0;
+}
+.logo p {
+    margin-bottom: 0;
+}
+.logo h1 a, 
+.logo p, 
+.logo p.site-title a{
+    color: #fff !important;
+}
+.page-template-custom-home-page .logo h1 a, 
+.page-template-custom-home-page .logo p, 
+.page-template-custom-home-page .logo p.site-title a{
+    color: #222222 !important;
+}
+
+/*-------- NAVIGATION ---------*/
+
+.page-template-custom-home-page #header {
+    background: rgba(0, 0, 0, 0) linear-gradient( 126deg ,transparent 45%, #0f3fd0 43%) repeat scroll 0 0;
+}
+#header{
+    background: #0f3fd0;
+}
+.header-menu i {
+    color: #f8af12;
+    font-size: 35px;
+}
+.page-template-custom-home-page .header-menu {
+    padding: 18px 0 0;
+}
+.header-menu{
+    padding: 20px 0;
+}
+p.diff-lay,
+p.same-lay{
+	color: #fff !important;
+	margin-bottom: -5px;
+}
+.page-template-custom-home-page p.call-no,
+.woocommerce h3,
+.woocommerce h2 {
+    color: #222222;
+}
+p.call-no a, p.diff-lay a{
+    color: #fff;
+}
+.page-template-custom-home-page p.call-no a{
+    color: #222222;
+}
+.page-template-custom-home-page p.call-no a:hover, p.call-no a:hover, p.diff-lay a:hover{
+    color: #f8af12;
+}
+p.call-no{
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.page-template-custom-home-page .menu-bar {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    top: 25px;
+}
+.menu-bar{
+    background: #fff;
+    box-shadow: 0px -5px 10px -5px #f1f1f1;
+    width: 100%;
+    margin: 15px auto 0;
+    position: static;    
+    z-index: 999;
+}
+.main-navigation a {
+    font-size: 13px;
+    padding: 8px 15px;
+    color: #222222;
+    margin-top: 0;
+    text-transform: none;
+}
+.main-navigation a:hover,
+.main-navigation ul.sub-menu a:hover,
+.search-box i:hover,
+.postbox:hover h2,
+.postbox:hover i,
+.blogbutton-small:hover,
+.sidebar td#prev a,
+.entry-content a, a,
+.footer h3,
+.textwidget p a, 
+#comments p a,
+.footer .custom-social-icons i,
+.sidebar .custom-social-icons i {
+	color: #f8af12;
+}
+.main-navigation ul ul,
+hr.big,
+input[type="submit"],
+.footer .custom-social-icons i,
+.sidebar .custom-social-icons i,
+.footer .custom-social-icons i:hover,
+.sidebar .custom-social-icons i:hover{
+	border-color: #f8af12;
+}
+
+/*-------- SEARCH POPUP ---------*/
+
+.search-box label {
+	width: 80%;
+}
+#header form.search-form{
+	margin: 0;
+}
+.search-box {
+	background: #f8af12;
+    padding: 6px 0;
+}
+.search-box input[type="submit"] {
+    padding: 10px 16px;
+    background: url(images/search.png) no-repeat scroll 3px 5px;
+}
+button.search-submit {
+	border: 0;
+	background: transparent;
+}
+.search-box input.search-field {
+	border: none;
+	padding: 10px;
+	width: 100%;
+	font-size: 15px;
+	font-style: italic;
+}
+
+/*------- SLIDER CSS --------*/
+
+.slider{
+	position: relative;
+}
+.slider-sec {
+    background: rgba(0, 0, 0, 0) linear-gradient( 122deg ,transparent 35%, #0f3fd0 30%) repeat scroll 0 0;
+    padding-bottom: 60px;
+}
+.slider img {
+    opacity: unset !important;
+}
+.slider .carousel-control-prev-icon i,
+.slider .carousel-control-next-icon i {
+    padding: 0;
+    background-color: transparent !important;
+    border-radius: unset;
+    font-size: 30px;
+}
+.slider .carousel-control-prev-icon i:hover,
+.slider .carousel-control-next-icon i:hover{
+	background: transparent !important;
+}
+.slider .inner_carousel h1{
+    border:none !important;
+}
+.slider .more-btn a {
+    border: none;
+    background: #f8af12;
+    padding: 15px 25px;
+    font-size: 15px;
+}
+.slider .more-btn a:hover{
+    background: #0f3fd0;
+}
+
+/*------- ABOUT CSS --------*/
+.about-section h3,
+.about-section p,
+.about-btn{
+    padding: 0;
+    border:none;
+}
+.about-section h3 {
+    color: #222222;
+    text-transform: none;
+    font-size: 35px;
+}
+.about-btn a {
+    padding: 15px 20px;
+    background: #f8af12;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+}
+.about-btn a:hover {
+    background: #0f3fd0;
+    color: #fff;
+}
+
+/*------- POST CSS --------*/
+#contact {
+    background: rgba(0, 0, 0, 0) linear-gradient( 123deg ,transparent 19.3%, #0f3fd0 18%) repeat scroll 0 0;
+    padding: 10px 0 30px;
+}
+.contact-no {
+    background: #f8af12;
+    padding: 10px;
+    margin: 25px 0;
+}
+.contact-no i,
+.contact-no span a{
+	color: #fff !important;
+    font-size: 25px;
+}
+.contact-no span a:hover{
+    color: #0f3fd0 !important;
+}
+.contact-btn a {
+    background: #f8af12;
+    padding: 15px 20px;
+    border: 2px solid #f8af12;
+}
+.contact-content h2,
+#contact,
+.footer .custom-social-icons,
+.sidebar .custom-social-icons{
+	text-align: center;
+}
+.contact-content h2{
+    text-transform: none;
+    font-size: 35px;
+}
+.contact-btn a:hover{
+	background: #fff;
+    border: 2px solid #fff;
+    color: #0f3fd0;
+}
+.footer a.custom_read_more {
+    background: #f8af12;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    color: #fff !important;
+    border: none;
+}
+.footer a.custom_read_more:hover {
+    background: #0f3fd0;
+    color: #fff;
+}
+/* --------- CATEGORY SECTION ------- */
+
+#serv-section{
+    padding:3% 0;
+    text-align: center;
+}
+.serv-box {
+    margin-bottom: 20px;
+}
+.serv-box h4 {
+    display: none;
+}
+.serv-box:hover h4 {
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    background: #fff;
+    position: absolute;
+    font-weight: 600;
+    bottom: 25px;
+    right: 50px;
+    left: 50px;
+}
+#serv-section p {
+    font-weight: bold;
+    color: #222222;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+#serv-section h3 {
+    text-transform: none;
+    color: #222222;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+/*------- POST CSS --------*/
+
+#our-services .new-text{
+    padding: 0 10px;
+}
+.postbox:hover h2.section-title a, .postbox:hover .entry-date a, .postbox:hover .entry-author a, .metabox:hover a{
+    color: #0f3fd0;
+}
+.postbox h2 {
+    font-size: 25px;
+    letter-spacing: 0;
+    padding: 0 0 10px;
+    font-weight: 700;
+}
+h2.section-title a,
+.blog-icon i,
+.sidebar th,
+.sidebar caption,
+.post-navigation .meta-nav,
+.content-vw h1,
+.serv-box h4 a,
+.sidebar select,
+.sidebar td,
+.sidebar .tagcloud a,
+.related-post h3,
+.woocommerce .quantity .qty,
+.related.products h2,
+#tab-reviews h2, 
+#tab-description h2{
+	color: #222222;
+}
+.postbox p {
+    font-size: 13px;
+    color: #909090;
+    margin: 15px 0 10px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.metabox,
+.entry-date a, .entry-author a {
+    color: #909090;
+    clear: both;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.metabox i{
+	font-size: 12px;
+	color: #909090;
+}
+.read-btn{
+    margin: 25px 0;
+    display: block;
+}
+.read_full a,
+.sidebar a.custom_read_more{
+    background: #f8af12 !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+.read_full a:hover{
+    background: #0f3fd0 !important;
+    color: #fff;
+}
+.sidebar a.custom_read_more:hover,
+.footer .custom-social-icons i:hover,
+.sidebar .custom-social-icons i:hover,
+.sidebar .custom-contact-us input[type="submit"]:hover,
+.sidebar input[type="submit"]:hover,
+input[type="submit"]:hover,
+.scrollup i:hover,
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover, 
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover,
+a.button:hover,
+.sidebar h3,
+h1.entry-title, 
+h2.entry-title, 
+h1.page-title{
+    background: #0f3fd0;
+    color: #fff;
+}
+.pagination .current,
+.pagination a:hover{
+	background: #0f3fd0 !important;
+	color: #fff;
+}
+.serach_inner input.search-submit:hover,
+.footer{
+	background: #222222 !important;
+}
+.pagination span, 
+.pagination a{
+    background: #f8af12 !important;
+}
+.single-post h1,
+.middle-align h1 {
+    font-weight: bold;
+}
+#comments input[type="submit"].submit{
+	background: #f8af12 !important;
+}
+h1.entry-title, 
+h2.entry-title, 
+h1.page-title{
+    font-size: 15px;
+    text-transform: none;
+}
+.nav-previous a{
+  padding: 15px 15px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 13px;
+  font-weight: bold;
+  text-align: left;
+  background: #f8af12;
+}
+.nav-next a{
+  padding: 15px 15px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 13px;
+  font-weight: bold;
+  text-align: right;
+  background: #f8af12;
+}
+.nav-previous a:hover, .nav-next a:hover {
+  background: #0f3fd0;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+/*------- SIDEBAR CSS --------*/
+
+.sidebar input[type="submit"], 
+.footer input[type="submit"],
+.sidebar td#today,
+.footer .tagcloud a:hover,
+.scrollup i,
+input[type="submit"],
+.woocommerce #respond input#submit,
+.woocommerce a.button, .woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce span.onsale,
+nav.woocommerce-MyAccount-navigation ul li,
+#comments a.comment-reply-link,
+.sidebar .woocommerce-product-search button,
+.sidebar .widget_price_filter .ui-slider .ui-slider-range, 
+.sidebar .widget_price_filter .ui-slider .ui-slider-handle,
+.footer .woocommerce-product-search button,
+.footer .widget_price_filter .ui-slider .ui-slider-range, 
+.footer .widget_price_filter .ui-slider .ui-slider-handle,
+.footer .custom-social-icons i,
+.sidebar .custom-social-icons i,
+.sidebar .tagcloud a:hover,
+a.button{
+	background: #f8af12;
+}
+.sidebar ul li a{
+	color: #909090;
+}
+.sidebar ul li a:hover, .footer li a:hover{
+    color: #f8af12;
+}
+.sidebar td#today a,
+a.rsswidget,
+a.button{
+	color: #fff;
+}
+.sidebar h3{
+	margin-top: 0;
+}
+.sidebar h3:after,
+h1.entry-title:after,
+h2.entry-title:after,
+h1.page-title:after{
+    border-top-color:#0f3fd0;
+}
+.woocommerce-message{
+	border-top-color: #f8af12;
+}
+.woocommerce .quantity .qty{
+    border-color: #222222;
+    padding: 4px;
+}
+h2.woocommerce-loop-product__title, .woocommerce div.product .product_title {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.woocommerce h1.product_title.entry-title{
+    font-size: 30px !important;
+    letter-spacing: 0;
+    font-weight: bold;
+    color: #222222;
+}
+.related.products h2{
+    margin-bottom: 20px;
+    text-transform: none;
+}
+.footer .custom-social-icons i,
+.sidebar .custom-social-icons i{
+    color: #fff !important;
+}
+.woocommerce form.login input[type="password"] {
+    padding: 10px;
+    border: 1px solid #bcbcbc;
+}
+.woocommerce input#password{
+  border: 1px solid #bcbcbc;
+}
+.woocommerce-page form .password-input{
+  width: 100%;
+}
+.woocommerce label {
+  width: 100%;
+}
+.woocommerce nav.woocommerce-pagination ul li a {
+  display: block;
+  margin: 2px 2px 2px 0;
+  padding: 12px 15px;
+  text-decoration: none;
+  width: auto;
+  color: #fff;
+  background: #f8af12 !important;
+  transition: background .15s ease-in-out;
+  font-weight: bold;
+}
+.woocommerce nav.woocommerce-pagination ul li a:hover{
+  background: #0f3fd0 !important;
+  color: #fff;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current{
+  padding: 12px 15px;
+  background: #0f3fd0 !important;
+  color: #fff;
+  font-weight: normal;
+}
+.woocommerce nav.woocommerce-pagination ul, .woocommerce nav.woocommerce-pagination ul li{
+  border: none;
+  float: none;
+  overflow: unset;
+}
+.woocommerce nav.woocommerce-pagination {
+  text-align: center;
+  margin-bottom: 20px;
+} 
+.woocommerce .cart .button{
+    background: #f8af12;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+.woocommerce .cart .button:hover{
+    background: #0f3fd0 !important;
+}
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+  width: 110px !important;
+  padding: 8px 5px 8px !important;
+  margin: 0px 10px 0px 0 !important;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  margin-bottom: 30px;
+}
+#payment {
+  margin-bottom: 30px;
+}
+/*------- FOOTER CSS --------*/
+
+.footer-2 {
+    background: #f8af12;
+    border-top: 0;
+}
+.footer h3{
+    border-bottom: 1px solid #f8af12;
+}
+.copyright p{
+	font-weight: 600;
+	letter-spacing: 0;
+}
+.scrollup i{
+    color: #fff !important;
+    border: none;
+}
+
+/*------- MEDIA CSS --------*/
+
+@media screen and (max-width:720px) {
+    .page-template-custom-home-page .menu-bar{
+        position: static;
+        width: 100%;
+        margin: 15px 0 0;
+    }
+    .slider-sec{
+        padding-bottom: 30px;
+    }    
+    .page-template-custom-home-page #header {
+        background: #0f3fd0;
+    }
+    .page-template-custom-home-page .logo h1 a,
+    .page-template-custom-home-page .logo p,
+    .page-template-custom-home-page .logo p.site-title a,
+    .page-template-custom-home-page p.call-no a{
+        color: #fff !important;
+    }
+    .logo,
+    .header-menu{
+        text-align: center;
+    }
+	.admin-bar #header {
+    	margin-top: 46px;
+	}
+    .search-box input[type="submit"] {
+        padding: 10px 14px;
+        background: url(images/search.png) no-repeat scroll 0 5px;
+    }
+    #contact {
+        background: rgba(0, 0, 0, 0) linear-gradient( 180deg ,transparent 19.3%, #0f3fd0 18%) repeat scroll 0 0 !important;
+    }
+    .postbox h2{
+        padding: 10px 0;
+    }
+}
+
+@media screen and ( max-width: 788px ) and ( min-width: 768px ) {
+	.admin-bar #header {
+	    margin-top: 46px;
+	}
+    p.call-no{
+        line-height: 1;
+    }
+    body.admin-bar #mySidenav{
+        margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .slider .inner_carousel h1{
+        font-size: 30px;
+    }
+	.sidenav .closebtn i{
+        color: #000;
+	}
+    .toggle-nav i {
+        background: #f8af12;
+        border: none;        
+        margin: 0;
+        color: #fff !important;
+        font-size: 20px;
+        padding: 17px;
+    }
+	.toggle-nav{
+		position: static;
+        width: auto;
+        text-align: left;
+	}
+    .slider img {
+        height: auto !important;
+    }
+}
+
+@media screen and ( max-width: 1199px ) and ( min-width: 1024px ) {
+    .search-box input[type="submit"] {
+        padding: 10px 14px;
+        background: url(images/search.png) no-repeat scroll 0px 5px;
+    }
+}
